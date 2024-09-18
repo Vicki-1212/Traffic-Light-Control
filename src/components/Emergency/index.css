@@ -1,0 +1,9 @@
+.emergency-button {
+    background-color: red;
+    height:50px;
+    width:100px;
+    border-radius:10px;
+    border:none;
+    outline:none;
+    color:white;
+}

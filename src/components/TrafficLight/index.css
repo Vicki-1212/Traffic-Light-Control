@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+.timer-container {
+    margin-bottom:20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+
+.time-display-container {
+    height:70px;
+    width:110px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size:12px;
+    border-radius:10px;
+}
+
+.traffic-card {
+    background-color: black;
+    height:350px;
+    width:100px;
+    border-radius:40px;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap:20px;
+}
+
+.light {
+    border-radius: 50%;
+    height:70px;
+    width:70px;
+    background-color: #333;
+    transition: background 0.3s ease-in-out;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.5s ease-in-out;
+}
+
+.red {
+    background-color: red;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+}
+
+.yellow {
+    background-color: yellow;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+}
+
+.green {
+    background-color: green;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+}
+
+.display-green {
+    color:green;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.display-red {
+    color:red;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.display-yellow {
+    color:yellow;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
